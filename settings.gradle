@@ -8,3 +8,13 @@ git {
     }
 }
 rootProject.name = 'java-instrumentation-template'
+include 'mongodb-async'
+include 'mongodb-async-3.11'
+include 'mongodb-async-3.6'
+include 'mongodb-async-3.8'
+include 'mongodb-async-4.0'
+include 'reactive-mongo-0.x-2.12'
+include 'reactive-mongo-netty'
+include 'mongodb-async-3.7'
+include 'mongodb-async-3.10'
+include 'reactive-mongo-0.x-2.13'

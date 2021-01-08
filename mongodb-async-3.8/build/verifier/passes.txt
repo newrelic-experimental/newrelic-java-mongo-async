@@ -1,0 +1,5 @@
+mongodb-async-3.8 org.mongodb:mongodb-driver-async:3.9.1
+mongodb-async-3.8 org.mongodb:mongodb-driver-async:3.8.1
+mongodb-async-3.8 org.mongodb:mongodb-driver-async:3.8.2
+mongodb-async-3.8 org.mongodb:mongodb-driver-async:3.9.0
+mongodb-async-3.8 org.mongodb:mongodb-driver-async:3.8.0

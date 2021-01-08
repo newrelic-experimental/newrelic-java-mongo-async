@@ -1,0 +1,30 @@
+com/nr/agent/mongo/NRConnectionCallback.java
+ com.nr.agent.mongo.NRConnectionCallback
+com/mongodb/async/client/MongoCollectionImpl.java
+ com.mongodb.async.client.MongoCollectionImpl
+com/mongodb/async/client/ListCollectionsIterable_instrumentation.java
+ com.mongodb.async.client.ListCollectionsIterable_instrumentation
+com/mongodb/async/client/ListDatabasesIterable_instrumentation.java
+ com.mongodb.async.client.ListDatabasesIterable_instrumentation
+com/nr/agent/mongo/MongoUtil.java
+ com.nr.agent.mongo.MongoUtil
+com/mongodb/async/client/MongoIterable_instrumentation.java
+ com.mongodb.async.client.MongoIterable_instrumentation
+com/mongodb/async/client/DistinctIterable_instrumentation.java
+ com.mongodb.async.client.DistinctIterable_instrumentation
+com/mongodb/async/client/MongoDatabase_Weaved.java
+ com.mongodb.async.client.MongoDatabase_Weaved
+com/mongodb/operation/AsyncOperationExecutor.java
+ com.mongodb.operation.AsyncOperationExecutor
+com/mongodb/async/client/ListIndexesIterable_instrumentation.java
+ com.mongodb.async.client.ListIndexesIterable_instrumentation
+com/mongodb/async/client/MapReduceIterable_instrumentation.java
+ com.mongodb.async.client.MapReduceIterable_instrumentation
+com/nr/agent/mongo/NRCallbackWrapper.java
+ com.nr.agent.mongo.NRCallbackWrapper
+com/mongodb/connection/Connection.java
+ com.mongodb.connection.Connection
+com/mongodb/async/client/AggregateIterable_instrumentation.java
+ com.mongodb.async.client.AggregateIterable_instrumentation
+com/mongodb/async/client/FindIterable_instrumentation.java
+ com.mongodb.async.client.FindIterable_instrumentation

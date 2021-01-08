@@ -3,3 +3,7 @@
 gradlew.bat
 gradlew
 gradle/**
+.cache-main
+.classpath
+.project
+settings
