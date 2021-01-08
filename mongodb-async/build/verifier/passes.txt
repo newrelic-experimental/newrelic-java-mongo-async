@@ -1,4 +1,0 @@
-mongodb-async org.mongodb:mongodb-driver-async:3.4.1
-mongodb-async org.mongodb:mongodb-driver-async:3.4.2
-mongodb-async org.mongodb:mongodb-driver-async:3.4.3
-mongodb-async org.mongodb:mongodb-driver-async:3.5.0

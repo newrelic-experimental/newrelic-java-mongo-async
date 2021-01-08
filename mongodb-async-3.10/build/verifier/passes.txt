@@ -1,3 +1,0 @@
-mongodb-async-3.10 org.mongodb:mongodb-driver-async:3.10.0
-mongodb-async-3.10 org.mongodb:mongodb-driver-async:3.10.1
-mongodb-async-3.10 org.mongodb:mongodb-driver-async:3.10.2

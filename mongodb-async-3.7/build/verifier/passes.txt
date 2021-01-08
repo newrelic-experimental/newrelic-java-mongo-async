@@ -1,2 +1,0 @@
-mongodb-async-3.7 org.mongodb:mongodb-driver-async:3.7.1
-mongodb-async-3.7 org.mongodb:mongodb-driver-async:3.7.0
