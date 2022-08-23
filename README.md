@@ -1,5 +1,21 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
+![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-java-ws-rs-errors?style=social)
+![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-java-mongo-async?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-java-mongo-async?style=social)
+
+![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-java-mongo-async/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-java-mongo-async)
+![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-java-mongo-async)
+![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-java-mongo-async)
+
+
+![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-java-mongo-async)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-java-mongo-async)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-java-mongo-async)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-java-mongo-async)
+
+
 # New Relic Java Instrumentation for MongoDB Async
 
 >[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
