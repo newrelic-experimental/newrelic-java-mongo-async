@@ -4,7 +4,7 @@
 apply plugin: 'java'
 
 dependencies {
-   implementation 'org.reactivemongo:reactivemongo_2.13:0.18.0'
+   implementation 'org.reactivemongo:reactivemongo_2.13:1.0.0'
 
    // New Relic Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:6.0.0'
@@ -22,6 +22,6 @@ jar {
 }
 
 verifyInstrumentation {
-   passes 'org.reactivemongo:reactivemongo_2.13:[0.18.0,1.0.0)'
+   passes 'org.reactivemongo:reactivemongo_2.13:[1.0.0,)'
  	excludeRegex '.*rc.*'
 }
