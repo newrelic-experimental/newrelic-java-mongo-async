@@ -7,14 +7,14 @@ import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
 import reactivemongo.api.Collation;
-import reactivemongo.api.commands.MultiBulkWriteResultFactory.MultiBulkWriteResult;
+import reactivemongo.api.commands.MultiBulkWriteResultFactory;
 import reactivemongo.api.commands.WriteResult;
 import scala.Option;
 import scala.concurrent.ExecutionContext;
 import scala.concurrent.Future;
 
 @Weave(type=MatchType.Interface)
-public abstract class DeleteOps {
+public abstract class DeleteOps<P> {
 
 	@Weave
 	public static class DeleteBuilder {
@@ -26,8 +26,9 @@ public abstract class DeleteOps {
 			return Weaver.callOriginal();
 		}
 		
+		@SuppressWarnings("rawtypes")
 		@Trace
-		public scala.concurrent.Future<MultiBulkWriteResult> many(scala.collection.Iterable<reactivemongo.api.commands.DeleteCommand.DeleteElement> deletes, scala.concurrent.ExecutionContext ec) {
+		public scala.concurrent.Future<MultiBulkWriteResultFactory.MultiBulkWriteResult> many(scala.collection.Iterable<reactivemongo.api.commands.DeleteCommand.DeleteElement> deletes, scala.concurrent.ExecutionContext ec) {
 			String method = "many";
 			NewRelic.getAgent().getTracedMethod().setMetricName("Custom","Delete",method);
 			return Weaver.callOriginal();

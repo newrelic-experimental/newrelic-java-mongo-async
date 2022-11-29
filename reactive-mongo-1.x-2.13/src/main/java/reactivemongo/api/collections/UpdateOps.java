@@ -17,6 +17,7 @@ public abstract class UpdateOps<P> {
 	@Weave
 	public static class UpdateBuilder {
 		
+		@SuppressWarnings("rawtypes")
 		@Trace
 		public <Q, U> Future<UpdateWriteResult> one(Q q, U u, boolean b1, boolean b2, ExecutionContext ec, Object o1, Object o2) {
 			Future<UpdateWriteResult> result = Weaver.callOriginal();

@@ -18,7 +18,6 @@ import scala.Function2;
 import scala.concurrent.ExecutionContext;
 import scala.concurrent.Future;
 
-@SuppressWarnings("deprecation")
 @Weave
 public abstract class DefaultCursor$$anon$1<A>  {
 	

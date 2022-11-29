@@ -25,6 +25,7 @@ public abstract class InsertOps {
 			return Weaver.callOriginal();
 		}
 		
+		@SuppressWarnings("rawtypes")
 		@Trace
 		public <T> Future<MultiBulkWriteResult> many(Iterable<T> documents, ExecutionContext ec, Object writer)  {
 			String method = "many";
