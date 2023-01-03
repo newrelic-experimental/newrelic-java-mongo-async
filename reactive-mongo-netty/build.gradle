@@ -1,5 +1,5 @@
 
-// Build.gradle generated for instrumentation module reactive-mongo
+// Build.gradle generated for instrumentation module reactive-mongo-netty
 
 apply plugin: 'java'
 
@@ -14,7 +14,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.reactive-mongo'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.reactive-mongo-netty'
     attributes 'Implementation-Vendor': 'New Relic'
     attributes 'Implementation-Vendor-Id': 'com.newrelic'
     attributes 'Implementation-Version': 1.0
@@ -22,5 +22,5 @@ jar {
 }
 
 verifyInstrumentation {
-   passes 'org.reactivemongo:reactivemongo_2.12:[0.14.0,0.20.13]'
+   passes 'org.reactivemongo:reactivemongo_2.12:[0.14.0,)'
 }
